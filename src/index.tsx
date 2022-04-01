@@ -7,7 +7,7 @@ import { GlobalStyle } from "./styles/global";
 
 createServer({
   models: {
-    transactions: Model,
+    transaction: Model,
   },
   seeds(server) {
     server.db.loadData({
